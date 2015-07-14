@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_btn_background">#ffffff</color>
+    <color name="title_background">#ff4095af</color>
+
+    <color name="tab_background">#dcdcdc</color>
+    <color name="loading">#c0c0c0</color>
+
+    <color name="line">@color/loading</color>
+    <color name="setting_line">#DADADA</color>
+    <color name="white">#ffffff</color>
+
+    <color name="lightblue">#1DA27A</color>
+    <color name="lightblack">#656565</color>
+    <color name="black">#000</color>
+
+    <color name="list_item_background_normal">@color/white</color>
+    <color name="list_item_background_pressed">#efefef</color>
+
+    <color name="setting_button">#5BC8F5</color>
+    <color name="hint_color">#CACACA</color>
+
+</resources>

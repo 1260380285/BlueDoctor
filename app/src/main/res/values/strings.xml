@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">兰医生</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="kongzhonghospital_button">空中医院</string>
+    <string name="zixun_button">资讯</string>
+    <string name="wenda_button">问答</string>
+    <string name="zhanghao_button">账号</string>
+
+
+    <string name="redian_button">热点</string>
+    <string name="yangsheng_button">养生</string>
+
+    <string name="jiazaizhong">加载中...</string>
+
+    <string name="tongzhi">消息通知</string>
+    <string name="fankui">反馈</string>
+    <string name="dafeng">打分</string>
+    <string name="help">帮助</string>
+    <string name="announcement">声明</string>
+    <string name="logon">登录</string>
+    <string name="register">注册</string>
+    <string name="notify">提示</string>
+    <string name="next">下一步</string>
+
+    <string name="phone">手机号</string>
+    <string name="password">密码</string>
+    <string name="verifyword">验证码</string>
+    <string name="getverifyword">获取验证码</string>
+
+    <string name="forgetpassword">忘记密码</string>
+
+
+
+    <string name="logonnow">正在登录...</string>
+
+    <string name="ok">确定</string>
+
+    <string name="phoneError">手机号码错误</string>
+    <string name="putPhone">请输入手机号</string>
+
+    <string name="passwordError">密码不能为空</string>
+    <string name="passwordNotSame">密码不相同</string>
+    <string name="phoneOrPasswordError">用户名或密码错误</string>
+
+    <string name="internetError">没有可用网络</string>
+
+    <string name="getMessage">获取中...</string>
+
+    <string name="nickname">昵称</string>
+    <string name="confirmPassowrd">确认密码</string>
+
+    <string name="modify">重置修改</string>
+</resources>

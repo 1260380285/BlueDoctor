@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.blue.doctor.plugin.CustomerScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/space_12"
+        android:orientation="vertical">
+
+        <View
+            style="@style/setting_line"
+            />
+
+        <RelativeLayout
+            android:id="@+id/tongzhi"
+            style="@style/setting_layout">
+
+            <TextView
+                style="@style/settingText"
+
+                android:drawableLeft="@mipmap/alerts_64"
+                android:text="@string/tongzhi"/>
+
+            <ImageView
+                style="@style/setting_image"/>
+        </RelativeLayout>
+
+        <View
+            style="@style/setting_line"/>
+
+        <View
+            style="@style/setting_line"
+            android:layout_marginTop="@dimen/space_10"/>
+
+        <RelativeLayout
+            android:id="@+id/fankui"
+            style="@style/setting_layout">
+
+            <TextView
+                style="@style/settingText"
+                android:drawableLeft="@mipmap/feedback_64"
+                android:text="@string/fankui"/>
+
+            <ImageView
+                style="@style/setting_image"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_marginLeft="@dimen/margin_left"
+            style="@style/setting_line"/>
+
+        <RelativeLayout
+            android:id="@+id/dafeng"
+            style="@style/setting_layout">
+
+            <TextView
+                style="@style/settingText"
+                android:drawableLeft="@mipmap/score_64"
+                android:text="@string/dafeng"/>
+
+            <ImageView
+                style="@style/setting_image"/>
+        </RelativeLayout>
+
+        <View
+            style="@style/setting_line"/>
+
+        <View
+            style="@style/setting_line"
+            android:layout_marginTop="@dimen/space_10"
+            />
+
+
+        <RelativeLayout
+            android:id="@+id/help"
+            style="@style/setting_layout">
+
+            <TextView
+                style="@style/settingText"
+                android:drawableLeft="@mipmap/help_64"
+                android:text="@string/help"/>
+
+            <ImageView
+                style="@style/setting_image"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_marginLeft="@dimen/margin_left"
+            style="@style/setting_line"/>
+
+        <RelativeLayout
+            android:id="@+id/announcement"
+            style="@style/setting_layout">
+
+            <TextView
+                style="@style/settingText"
+                android:drawableLeft="@mipmap/statement_64"
+                android:text="@string/announcement"/>
+
+            <ImageView
+                style="@style/setting_image"/>
+
+        </RelativeLayout>
+
+        <View
+            style="@style/setting_line"/>
+
+        <Button
+            android:id="@+id/logon_button"
+            android:layout_marginLeft="@dimen/space_10"
+            android:layout_marginTop="@dimen/space_10"
+            android:layout_marginRight="@dimen/space_10"
+            android:text="@string/logon"
+            android:textSize="@dimen/text_size_20"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/setting_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</com.blue.doctor.plugin.CustomerScrollView>

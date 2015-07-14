@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <include layout="@layout/header"/>
+
+    <EditText
+        android:id="@+id/phone"
+        style="@style/logon_editplus"
+        android:layout_below="@id/title_layout"
+        android:layout_marginTop="@dimen/space_40"
+        android:background="@drawable/edit_style"
+        android:hint="@string/phone"
+        android:singleLine="true"
+        android:textCursorDrawable="@null"
+        />
+
+    <LinearLayout
+        android:id="@+id/registe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_marginRight="@dimen/space_10"
+        android:layout_marginTop="@dimen/space_20"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/verify_code"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="@drawable/edit_style"
+            android:hint="@string/verifyword"
+            android:padding="@dimen/space_10"
+            android:singleLine="true"
+            android:textColorHint="@color/hint_color"
+            android:textCursorDrawable="@null"/>
+
+        <Button
+            android:id="@+id/verify_button"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="@dimen/space_10"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:textSize="@dimen/text_size_16"
+            android:background="@drawable/setting_button"
+            android:text="@string/getverifyword"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_button"
+        style="@style/register_logon_button"
+        android:layout_height="40dp"
+        android:layout_below="@id/registe_layout"
+        android:layout_marginTop="@dimen/space_20"
+        android:text="@string/next"/>
+</RelativeLayout>

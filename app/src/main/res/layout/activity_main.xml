@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <!--<TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/title_background"
+        android:gravity="center"
+        android:text="@string/kongzhonghospital_button"
+        android:textColor="@color/button_btn_background"
+        android:textSize="16sp"/>-->
+    <include layout="@layout/header"/>
+
+    <LinearLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/button_btn_background"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/kongzhonghospital_button"
+            style="@style/button_btn"
+            android:drawableTop="@mipmap/kongzhongyiyuan_unpress"
+            android:text="@string/kongzhonghospital_button"/>
+
+        <Button
+            android:id="@+id/wenda_button"
+            style="@style/button_btn"
+            android:drawableTop="@mipmap/wenda_unpress"
+            android:text="@string/wenda_button"/>
+
+        <Button
+            android:id="@+id/zixun_button"
+            style="@style/button_btn"
+            android:drawableTop="@mipmap/zixun_unpress"
+            android:text="@string/zixun_button"
+            />
+
+        <Button
+            android:id="@+id/zhanghao_button"
+            style="@style/button_btn"
+            android:drawableTop="@mipmap/zhanghao_unpress"
+            android:text="@string/zhanghao_button"
+            />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/lines"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/tabs"
+        android:background="@color/line"/>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/lines"
+        android:layout_below="@+id/title_layout"/>
+
+</RelativeLayout>

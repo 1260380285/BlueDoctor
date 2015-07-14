@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <include layout="@layout/header"/>
+
+    <EditText
+        android:id="@+id/nickname"
+        style="@style/logon_editplus"
+        android:layout_below="@id/title_layout"
+        android:layout_marginTop="40dp"
+        android:singleLine="true"
+
+        android:textCursorDrawable="@null"
+        android:background="@drawable/edit_style"
+        android:hint="@string/nickname"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:singleLine="true"
+        android:password="true"
+        style="@style/logon_editplus"
+        android:textCursorDrawable="@null"
+        android:layout_below="@id/nickname"
+        android:layout_marginTop="@dimen/space_10"
+        android:background="@drawable/edit_style"
+        android:hint="@string/password"/>
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:singleLine="true"
+        android:password="true"
+        style="@style/logon_editplus"
+        android:textCursorDrawable="@null"
+        android:layout_marginTop="@dimen/space_10"
+        android:layout_below="@id/password"
+        android:background="@drawable/edit_style"
+        android:hint="@string/confirmPassowrd"/>
+    <Button
+        android:id="@+id/confirm_button"
+        style="@style/register_logon_button"
+        android:text="@string/register"
+        android:layout_below="@id/confirmpassword"
+        android:layout_height="40dp"/>
+
+</RelativeLayout>

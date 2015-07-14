@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="button_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:drawablePadding">-15dp</item>
+        <item name="android:background">@color/button_btn_background</item>
+    </style>
+
+    <style name="select_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">@color/tab_background</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/title_background</item>
+    </style>
+
+    <!-- 加载滚动条样式 -->
+    <style name="loading">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progressloading</item>
+        <item name="android:indeterminateDuration">1000</item>
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+
+    <style name="settingText">
+        <item name="android:drawablePadding">@dimen/space_15</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="setting_image">
+        <item name="android:src">@mipmap/ic_item_goto_right_tip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/space_20</item>
+
+    </style>
+
+    <style name="setting_layout">
+        <item name="android:paddingTop">@dimen/space_5</item>
+        <item name="android:paddingBottom">@dimen/space_5</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/list_item_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="setting_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/setting_line</item>
+    </style>
+
+    <style name="logon_editplus">
+
+        <item name="android:background">@drawable/list_item_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/space_10</item>
+        <item name="android:layout_marginRight">@dimen/space_10</item>
+        <item name="android:padding">@dimen/space_10</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+    </style>
+
+    <style name="Widget"></style>
+
+    <style name="Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_medium_holo</item>
+    </style>
+
+    <style name="dialog_waiting" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="dialog_common" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:alpha">0.5</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="register_logon_button">
+        <item name="android:layout_marginLeft">@dimen/space_10</item>
+        <item name="android:layout_marginTop">@dimen/space_10</item>
+        <item name="android:layout_marginRight">@dimen/space_10</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/setting_button</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

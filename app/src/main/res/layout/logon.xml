@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <include layout="@layout/header"/>
+
+    <EditText
+        android:id="@+id/phone"
+        style="@style/logon_editplus"
+        android:layout_below="@id/title_layout"
+        android:layout_marginTop="40dp"
+        android:singleLine="true"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/edit_style"
+        android:hint="@string/phone"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:singleLine="true"
+        android:password="true"
+        style="@style/logon_editplus"
+        android:textCursorDrawable="@null"
+        android:layout_below="@id/phone"
+        android:background="@drawable/edit_style"
+        android:hint="@string/password"/>
+
+    <TextView
+        android:id="@+id/forgetpassword"
+        android:layout_alignRight="@id/password"
+        android:layout_marginTop="@dimen/space_8"
+        android:paddingRight="@dimen/space_10"
+        android:layout_below="@id/password"
+        android:textSize="@dimen/text_size_18"
+        android:textColor="@color/lightblack"
+        android:text="@string/forgetpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/logon_button"
+        style="@style/register_logon_button"
+        android:text="@string/logon"
+        android:layout_below="@id/forgetpassword"
+        android:layout_height="40dp"/>
+    <Button
+        android:id="@+id/registe_button"
+        android:text="@string/register"
+       style="@style/register_logon_button"
+        android:layout_below="@id/logon_button"
+        android:layout_height="40dp"/>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/topPanel"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/button_btn_background"
+        android:orientation="horizontal"
+        >
+
+    <Button
+        android:id="@+id/redian_button"
+        style="@style/select_button"
+        android:text="@string/redian_button"
+        />
+
+    <Button
+        android:id="@+id/yangsheng_button"
+        style="@style/select_button"
+        android:text="@string/yangsheng_button"
+        />
+    </LinearLayout>
+
+    <com.blue.doctor.plugin.LoadListView
+        android:id="@+id/zixun_listview"
+        android:layout_below="@id/topPanel"
+        android:layout_width="match_parent"
+        android:divider="#000"
+        android:dividerHeight="2px"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
